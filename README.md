@@ -4,7 +4,7 @@ This is a Python implementation for the [MARS5 TTS repo](https://github.com/Camb
 
 # Installation
 
-Install Python
+Install [Python](https://www.python.org/downloads/)
 
 Clone directory
 
