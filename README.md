@@ -6,7 +6,7 @@ This is a Python implementation for the [MARS5 TTS repo](https://github.com/Camb
 
 Install [Python](https://www.python.org/downloads/)
 
-Clone directory
+Clone directory/download [.zip file](https://github.com/Veeeetzzzz/mars5-tts/archive/refs/heads/main.zip)
 
 Open CMD/Powershell and run pip install requirements.txt
 
