@@ -1,5 +1,7 @@
 # MARS5 Text-to-speech (TTS) Deep Clone
 
+This is a Python implementation for the [MARS5 TTS repo](https://github.com/Camb-ai/MARS5-TTS) that allows you to clone a voice with a command line interface.
+
 # Installation
 
 Install Python
@@ -36,7 +38,5 @@ There's no impact on us whether we use Command Line or PowerShell. They look the
 Run python tts.py
 
 ![image](https://github.com/Veeeetzzzz/mars5-tts/assets/40268197/ba1fae6e-b614-4ff6-95da-e176717652f4)
-
-
 
 # Terms
