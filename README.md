@@ -57,7 +57,7 @@ There's no impact on us whether we use Command Line or PowerShell. They look the
 - System won't lock up but CPU usage remains at 100% throughout processing stage
 - Results will vary - this is not a one shot model but seems far more impressive than ElevenLabs, Speechify at the cost of processing time
 
-# Things to add
+# Roadmap
 
-- PyTorch CUDA support to reduce procesing times
-- Local front end to upload files and preview results
+- Test PyTorch Cuda usage
+- Front end for local inference
