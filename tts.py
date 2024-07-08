@@ -6,6 +6,11 @@ import warnings
 import time
 import sys
 
+# Experimental - don't uncomment yet
+# At the beginning of your script, add:
+# device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+# print(f"Using device: {device}")
+
 # Suppress warnings
 warnings.filterwarnings("ignore")
 
@@ -13,6 +18,10 @@ warnings.filterwarnings("ignore")
 print("Loading model...")
 mars5, config_class = torch.hub.load('Camb-ai/mars5-tts', 'mars5_english', trust_repo=True)
 print("Model loaded successfully.")
+
+# Experimental - do not uncomment yet
+# After loading the model, move it to the GPU:
+# mars5 = mars5.to(device)
 
 # Function to sanitize file path
 def sanitize_path(path):
@@ -37,6 +46,10 @@ except Exception as e:
     print(f"Error loading audio file: {e}")
     print("Please ensure the file is a valid audio file and try again.")
     exit(1)
+
+# Experimental - do not uncomment yet
+# When loading the audio file:
+# wav = torch.from_numpy(wav).to(device)
 
 # Prompt for reference transcript
 ref_transcript = input("Enter the transcript of the reference audio: ")
@@ -80,6 +93,11 @@ try:
 except Exception as e:
     print(f"\nError generating speech: {e}")
     exit(1)
+
+# Experimental - do not uncomment yet
+# When generating speech:
+# ar_codes, output_audio = mars5.tts(text_to_synthesize, wav, ref_transcript, cfg=cfg)
+# output_audio = output_audio.cpu()  # Move back to CPU for saving
 
 # Get the directory of the input file
 output_dir = os.path.dirname(ref_audio_path)
