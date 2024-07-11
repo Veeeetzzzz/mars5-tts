@@ -4,6 +4,11 @@ This is a Python implementation for the [MARS5 TTS repo](https://github.com/Camb
 
 Try the [online demo here](https://6b1a3a8e53ae.ngrok.app/) for a quickstart or follow the instructions below to run this project locally/offline
 
+# Roadmap
+
+- EZ front end
+- Enable PyTorch CUDA (supported devices only)
+
 # Installation
 
 Install [Python](https://www.python.org/downloads/)
@@ -56,8 +61,3 @@ There's no impact on us whether we use Command Line or PowerShell. They look the
 
 - System won't lock up but CPU usage remains at 100% throughout processing stage
 - Results will vary - this is not a one shot model but seems far more impressive than ElevenLabs, Speechify at the cost of processing time
-
-# Roadmap
-
-- Test PyTorch Cuda usage
-- Front end for local inference
