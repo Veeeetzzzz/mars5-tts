@@ -1,4 +1,4 @@
-# MARS5 Text-To-Speech (TTS) Deep Clone
+# MARS5 Text-To-Speech (TTS) Deep Voice Clone
 
 [![CodeFactor](https://www.codefactor.io/repository/github/veeeetzzzz/mars5-tts/badge)](https://www.codefactor.io/repository/github/veeeetzzzz/mars5-tts)
 
