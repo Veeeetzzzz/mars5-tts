@@ -1,5 +1,7 @@
 # MARS5 Text-To-Speech (TTS) Deep Clone
 
+[![CodeFactor](https://www.codefactor.io/repository/github/veeeetzzzz/mars5-tts/badge)](https://www.codefactor.io/repository/github/veeeetzzzz/mars5-tts)
+
 This is a Python implementation for the [MARS5 TTS repo](https://github.com/Camb-ai/MARS5-TTS) that allows you to clone a voice with a command line interface.
 
 Try the [online demo here](https://6b1a3a8e53ae.ngrok.app/) for a quickstart or follow the instructions below to run this project locally/offline
