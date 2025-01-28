@@ -1,3 +1,5 @@
+# This repo has been retired and is no longer being worked on. I recommend [F5-TTS](https://github.com/SWivid/F5-TTS) as a suitable alternative.
+
 # MARS5 Text-To-Speech (TTS) Deep Voice Clone
 
 [![CodeFactor](https://www.codefactor.io/repository/github/veeeetzzzz/mars5-tts/badge)](https://www.codefactor.io/repository/github/veeeetzzzz/mars5-tts)
