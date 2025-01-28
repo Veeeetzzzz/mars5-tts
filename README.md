@@ -1,4 +1,4 @@
-# This repo has been retired and is no longer being worked on. I recommend [F5-TTS](https://github.com/SWivid/F5-TTS) as a suitable alternative.
+# This repo has been retired and is no longer being worked on. I recommend [F5-TTS](https://github.com/SWivid/F5-TTS) as a suitable alternative. If you wish to use the code below, you can stil fork the repo/download the files locally. This branch is no longer updated or maintained.
 
 # MARS5 Text-To-Speech (TTS) Deep Voice Clone
 
